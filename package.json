@@ -4,7 +4,8 @@
   "description": "- Yo jhon doe here\r - I'm feature branch\r - I'm feature branches",
   "main": "hello.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "echo 'Building the project...'"
   },
   "author": "",
   "license": "ISC",
