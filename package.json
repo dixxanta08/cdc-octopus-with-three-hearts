@@ -1,0 +1,15 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "- Yo jhon doe here\r - I'm feature branch\r - I'm feature branches",
+  "main": "hello.js",
+  "scripts": {
+    "test": "jest",
+    "build": "echo 'Building the project...'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

@@ -1,4 +1,5 @@
-// a simple js for git practing
-function hello() {
-    console.log('hello world');
+function add(a, b) {
+    return a + b;
 }
+
+module.exports = { add };

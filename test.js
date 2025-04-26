@@ -1,11 +1,5 @@
-// test file for hello.js
-const { hello } = require('./hello');
-const assert = require('assert');
+const { add } = require('./hello');
 
-describe('hello function', () => {
-    it('should return "hello world"', () => {
-        const result = hello();
-        assert.strictEqual(result, 'hello world');
-    });
-}
-// test file for hello.js
+test('adds 2 + 2 to equal 4', () => {
+    expect(add(2, 2)).toBe(4);
+});
