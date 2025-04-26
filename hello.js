@@ -4,4 +4,3 @@ function hello() {
 }
 
 console.log("hello world");
-console.log("trying out revert");
